@@ -1,0 +1,44 @@
+.parent_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(249, 250, 251);
+}
+
+.board_header {
+  padding: 20px;
+}
+
+.sub_title {
+  color: rgb(123, 130, 141);
+  padding-top: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tab {
+  background-color: #edf2f7;
+  background-color: #fff;
+  color: #2d3748;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tab.active {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.tab:hover {
+  background-color: #e8eaec;
+}
